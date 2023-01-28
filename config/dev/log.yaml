@@ -1,0 +1,8 @@
+driver: rotate
+level: trace
+file: ext.log
+rotate_count: 10
+rotate_size: 120000
+rotate_time: "1m"
+max_age: "10d"
+date_format: "%Y-%m-%d-%H-%M"
